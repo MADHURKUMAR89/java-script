@@ -1,0 +1,13 @@
+var mypey = {
+ 
+  "only": "fans",
+  "colour": "red",
+};
+function checkobj(checkprop)
+{
+  if (mypey.hasOwnProperty(checkprop))
+  {return mypey[checkprop]}
+  else{
+    return "not found"
+  }}
+console.log(checkobj("onl"))
