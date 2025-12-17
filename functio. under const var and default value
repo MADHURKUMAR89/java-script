@@ -1,0 +1,7 @@
+const increment = (function(){
+  return function increment (number ,value = 3){
+    return number + value;
+  }
+})();
+console.log(increment(3,5))
+console.log(increment(3))
